@@ -1,0 +1,18 @@
+[
+  {
+    "id": "provenance-to-primitives",
+    "summary": "Place-led identities translate local evidence into reusable typographic, geometric and material primitives instead of applying generic heritage styling.",
+    "status": "emerging",
+    "fit": "Place-led hospitality, culture and membership brands with legitimate archival, material or social context.",
+    "avoid": "Utility products, weak provenance, or contexts where local references risk becoming cultural caricature.",
+    "path": "trends/provenance-to-primitives.md"
+  },
+  {
+    "id": "editorial-scaffolding-over-card-chrome",
+    "summary": "Expressive brand and portfolio sites increasingly carry grouping through type scale, spacing, grids, indexing and sequence rather than persistent card surfaces.",
+    "status": "emerging",
+    "fit": "Low-to-moderate-density brand, launch, editorial and portfolio experiences.",
+    "avoid": "Dense transactional or data-heavy interfaces where explicit object and state boundaries improve scanning, operation or accessibility.",
+    "path": "trends/editorial-scaffolding-over-card-chrome.md"
+  }
+]
