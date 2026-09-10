@@ -12,6 +12,16 @@ On each run, read only:
 
 Do not recursively read `trends/`. Open a relevant trend file only when a candidate may duplicate, conflict with, weaken, strengthen, or change an indexed signal; maximum 3 trend files per run.
 
+## Reader contract
+
+For current-state questions, fetch the three files above by exact path from the repository default branch. Do not infer current state from code search hits, PR bodies, commit history, cached connector summaries, or how many `trends/*.md` files happen to be discoverable.
+
+- `index.json` is authoritative for **which signals are currently active**. Count and enumerate every top-level entry when asked for the current radar.
+- `LATEST.md` is authoritative for the compact current interpretation and prioritization of those active signals.
+- `trends/*.md` contains supporting evidence and history; a trend file existing does not by itself mean the signal is active.
+- If exact-path/default-branch reads are unavailable, say that the current radar cannot be verified. Do not answer from a stale search result or earlier PR snapshot.
+- If `LATEST.md` and `index.json` disagree, treat `index.json` as authoritative for active membership and flag the inconsistency for maintenance.
+
 ## Research window
 
 Prioritize work surfaced in the last 14 days and use roughly the previous 90 days as background for judging change. Start with Recent.design, Site of Sites, Brand New, Mobbin, Lapa Ninja, Design Spells, and Savee; follow through to original projects, studios, product pages, and first-party releases when needed.
