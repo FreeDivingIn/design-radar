@@ -18,12 +18,19 @@ Prioritize work surfaced in the last 14 days and use roughly the previous 90 day
 
 Prefer real work, interfaces, pages, and screenshots. A headline, forecast article, individual opinion, or one high-profile project is not trend evidence by itself.
 
+## Initialization baseline
+
+The first populated radar run is broader than a normal incremental run. Survey the current ~90-day landscape across both graphic and UI design and establish the few active signals with the highest decision value. A signal does not need to be newly invented to enter the initial baseline: current recurrence may justify `stable`, while evidence across distinct recent batches may justify `growing`. Recent 14-day work should still be used to confirm that a baseline signal remains live.
+
+After the baseline exists, return to incremental research and modify the repository only for substantive changes. Do not repeatedly rebuild the baseline.
+
 ## Promotion rules
 
 - One project is evidence, not a trend.
 - `emerging`: normally at least 3 independent projects across at least 2 independent sources.
 - `growing`: the signal continues across distinct time batches.
-- Status is one of `emerging`, `growing`, `stable`, `declining`.
+- `stable`: the mechanism remains current and decision-relevant, but the recent window does not show meaningful acceleration or decline.
+- `declining`: repeated current evidence shows the mechanism losing use or decision value; absence alone is insufficient.
 - Separate what was observed from what is inferred.
 - Record both `Fit` and `Avoid`.
 - Do not turn a shared feature of good examples into a generation rule.
