@@ -1,10 +1,58 @@
 [
   {
     "id": "provenance-to-primitives",
-    "summary": "Place-led identities translate local evidence into reusable typographic, geometric and material primitives instead of applying generic heritage styling.",
-    "status": "emerging",
-    "fit": "Place-led hospitality, culture and membership brands with legitimate archival, material or social context.",
-    "avoid": "Utility products, weak provenance, or contexts where local references risk becoming cultural caricature.",
+    "summary": "Project-specific archives, local forms and materials are translated into reusable type, geometry and physical system primitives.",
+    "status": "growing",
+    "fit": "Place-, culture-, craft- and community-led identities with legitimate source material.",
+    "avoid": "Thin provenance, utility contexts, or culturally reductive borrowing.",
     "path": "trends/provenance-to-primitives.md"
+  },
+  {
+    "id": "identity-as-behavioral-system",
+    "summary": "Recognition is increasingly carried by repeatable motion, rhythm or transformation rules while individual brand frames remain variable.",
+    "status": "growing",
+    "fit": "High-frequency media, music, culture, social and event brands.",
+    "avoid": "Low-frequency or tightly regulated identities without capacity to govern variation.",
+    "path": "trends/identity-as-behavioral-system.md"
+  },
+  {
+    "id": "controlled-irregularity",
+    "summary": "Bounded hand gesture, physical process and irregular response are being designed into otherwise controlled identity systems.",
+    "status": "emerging",
+    "fit": "Creative, food, sport and community brands where process or tactility contributes meaning.",
+    "avoid": "Cosmetic distress or interfaces where irregularity weakens legibility, state or trust.",
+    "path": "trends/controlled-irregularity.md"
+  },
+  {
+    "id": "editorial-scaffolding-over-card-chrome",
+    "summary": "Expressive sites continue to carry grouping through typography, spacing, grids, labels and sequence instead of persistent surfaced containers.",
+    "status": "stable",
+    "fit": "Brand, editorial, launch and portfolio experiences with moderate information density.",
+    "avoid": "Dense transactional or data interfaces where explicit object and state boundaries matter.",
+    "path": "trends/editorial-scaffolding-over-card-chrome.md"
+  },
+  {
+    "id": "density-up-chrome-down",
+    "summary": "Repeat-use tools are increasing visible information and routing density while reducing shadows, decorative containers and control weight.",
+    "status": "emerging",
+    "fit": "Professional and operational products used frequently by returning users.",
+    "avoid": "Novice or touch-first flows where stronger grouping and larger targets aid comprehension.",
+    "path": "trends/density-up-chrome-down.md"
+  },
+  {
+    "id": "ai-from-chat-to-work-surface",
+    "summary": "AI generation is moving into directly manipulable canvases and task-specific workspaces tied to durable source artifacts or data.",
+    "status": "growing",
+    "fit": "Creation, analysis and compositional workflows that benefit from multiple representations.",
+    "avoid": "High-stakes workflows requiring fixed structure, predictable state location and strong auditability.",
+    "path": "trends/ai-from-chat-to-work-surface.md"
+  },
+  {
+    "id": "ui-layer-floats-over-content",
+    "summary": "Apple-platform UI increasingly separates edge-to-edge content from floating native navigation and action controls that adapt or recede.",
+    "status": "stable",
+    "fit": "Native Apple media, reading, creation and communication apps.",
+    "avoid": "Dense web/data UI or contexts where transparency and motion weaken contrast or affordance.",
+    "path": "trends/ui-layer-floats-over-content.md"
   }
 ]
