@@ -54,5 +54,13 @@
     "fit": "Native Apple media, reading, creation and communication apps.",
     "avoid": "Dense web/data UI or contexts where transparency and motion weaken contrast or affordance.",
     "path": "trends/ui-layer-floats-over-content.md"
+  },
+  {
+    "id": "photography-over-rendered-imagery",
+    "summary": "Photographic and photoreal imagery is displacing rendered 3D and vector illustration as the default site imagery vocabulary.",
+    "status": "emerging",
+    "fit": "Hero and section imagery direction for product, AI and dev-tool sites.",
+    "avoid": "Treating photography as mandatory; category mix carries part of the move.",
+    "path": "trends/photography-over-rendered-imagery.md"
   }
 ]
