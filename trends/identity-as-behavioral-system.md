@@ -9,7 +9,8 @@ Recent identity systems repeatedly define how visual elements *behave* across ch
 - **Threads** uses a chisel construction principle that moves from the wordmark into motion, typography and graphic emphasis; the studio explicitly frames the identity as something that behaves.
 - **Ronnie Scott’s** keeps the recognisable logo but builds a typographic system around rhythm and spontaneity, described as closer to a performance than a fixed system.
 - **Public Records** uses modular templates, type, illustration and motion so social output can vary with programming while retaining a shared visual grammar.
-- **Brunch Electronik**, alongside other recent Brand New motion-tagged identities, foregrounds a motion and graphic system rather than treating animation as a launch asset.
+- **Phion Symphony Orchestra** makes the music itself the input to the system: GT Planar changes slant and spacing according to each performance, while a simple rule keeps the changing campaigns recognisable.
+- **Brunch Electronik** foregrounds a motion and graphic system rather than treating animation as a launch asset.
 
 ## Inference
 
@@ -28,7 +29,8 @@ Low-frequency identities, teams unable to govern motion/variation, or contexts w
 - [Threads — Studio NARI](https://www.studionari.co.uk/projects/threads) — construction logic extends from type into campaign and motion behavior.
 - [Ronnie Scott’s — It’s Nice That](https://www.itsnicethat.com/articles/dan-cottrell-studio-ronnie-scotts-branding-graphic-design-project-080726) — July identity explicitly framed as a performance rather than a fixed system.
 - [Public Records — It’s Nice That](https://www.itsnicethat.com/articles/los-cabbalos-public-records-graphic-design-illustration-project-270726) — modular social system combines layout, type, illustration and motion.
-- [Brand New: Motion](https://www.underconsideration.com/brandnew/archives/tag/motion) — separate June, August and September batches continue to surface identity systems where motion is structural.
+- [Phion Symphony Orchestra — Thonik](https://thonik.nl/work/phion) — first-party case study states that music is the foundation and the system expands campaign by campaign while retaining recognition.
+- [Brand New: Motion](https://www.underconsideration.com/brandnew/archives/tag/motion) — separate June, August and September batches continue to surface identity systems where motion is structural, including Brunch Electronik in September.
 
 ## Uncertainty
 
