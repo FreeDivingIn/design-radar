@@ -1,6 +1,7 @@
 [
   {
     "id": "provenance-to-primitives",
+    "lane": "current",
     "summary": "Project-specific archives, local forms and materials are translated into reusable type, geometry and physical system primitives.",
     "status": "growing",
     "fit": "Place-, culture-, craft- and community-led identities with legitimate source material.",
@@ -9,6 +10,7 @@
   },
   {
     "id": "identity-as-behavioral-system",
+    "lane": "current",
     "summary": "Recognition is increasingly carried by repeatable motion, rhythm or transformation rules while individual brand frames remain variable.",
     "status": "growing",
     "fit": "High-frequency media, music, culture, social and event brands.",
@@ -17,6 +19,7 @@
   },
   {
     "id": "controlled-irregularity",
+    "lane": "current",
     "summary": "Bounded hand gesture, physical process and irregular response are being designed into otherwise controlled identity systems.",
     "status": "emerging",
     "fit": "Creative, food, sport and community brands where process or tactility contributes meaning.",
@@ -25,6 +28,7 @@
   },
   {
     "id": "editorial-scaffolding-over-card-chrome",
+    "lane": "current",
     "summary": "Expressive sites continue to carry grouping through typography, spacing, grids, labels and sequence instead of persistent surfaced containers.",
     "status": "stable",
     "fit": "Brand, editorial, launch and portfolio experiences with moderate information density.",
@@ -33,6 +37,7 @@
   },
   {
     "id": "density-up-chrome-down",
+    "lane": "current",
     "summary": "Repeat-use tools are increasing visible information and routing density while reducing shadows, decorative containers and control weight.",
     "status": "emerging",
     "fit": "Professional and operational products used frequently by returning users.",
@@ -41,6 +46,7 @@
   },
   {
     "id": "ai-from-chat-to-work-surface",
+    "lane": "current",
     "summary": "AI generation is moving into directly manipulable canvases and task-specific workspaces tied to durable source artifacts or data.",
     "status": "growing",
     "fit": "Creation, analysis and compositional workflows that benefit from multiple representations.",
@@ -49,6 +55,7 @@
   },
   {
     "id": "ui-layer-floats-over-content",
+    "lane": "current",
     "summary": "Apple-platform UI increasingly separates edge-to-edge content from floating native navigation and action controls that adapt or recede.",
     "status": "stable",
     "fit": "Native Apple media, reading, creation and communication apps.",
@@ -57,6 +64,7 @@
   },
   {
     "id": "photography-over-rendered-imagery",
+    "lane": "current",
     "summary": "Photographic and photoreal imagery is displacing rendered 3D and vector illustration as the default site imagery vocabulary.",
     "status": "emerging",
     "fit": "Hero and section imagery direction for product, AI and dev-tool sites.",

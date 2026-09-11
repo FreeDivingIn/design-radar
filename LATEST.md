@@ -1,6 +1,6 @@
 # Latest — 2026-09-10
 
-Initial working-memory baseline. Eight signals currently have enough evidence and decision value to keep active.
+Current-lane working memory. These are the few signals with enough recent evidence and decision value to affect design choices now. `stable` here means currently established and still relevant; it does not automatically mean Evergreen. Stable signals should later be evaluated for promotion, archival, or removal from the current lane.
 
 ## Provenance becomes a reusable primitive — `growing`
 **Observation:** Rapha, Horniman, Rampant Club, Kithmore and Ytri repeatedly convert archives, local forms, objects and materials into type, geometry, patterns or physical details across June–September batches. **Inference:** traceable source material is increasingly used as a system constraint rather than generic heritage styling. **Fit:** place/culture/craft-led identities. **Avoid:** thin provenance or reductive borrowing. → `trends/provenance-to-primitives.md`
