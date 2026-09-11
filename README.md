@@ -1,62 +1,108 @@
 # Design Radar
 
-A compact, evidence-filtered radar for current graphic and UI design change. Its job is to expose the few signals that can change a design decision now, not to archive every trend.
+A compact, evidence-filtered design memory for humans and AI. It tracks what is changing now, what has proven durable, and which historical languages are returning — without dumping the whole archive into model context.
 
-## Read order
+## Three temporal lanes
 
-On each run, read only:
+- `LATEST.md` — **Now**. Recent design signals with current decision value.
+- `EVERGREEN.md` — **Enduring**. Long-lived mechanisms that remain useful after novelty fades.
+- `REVIVALS.md` — **Revival**. Historical design languages being reactivated in contemporary work.
 
-1. `README.md`
-2. `LATEST.md`
-3. `index.json`
+The lanes are complementary, not a single trend lifecycle. A pattern becoming Evergreen is not the same as a trend declining. A Revival can simultaneously be growing.
 
-Do not recursively read `trends/`. Open a relevant trend file only when a candidate may duplicate, conflict with, weaken, strengthen, or change an indexed signal; maximum 3 trend files per run.
+## Minimum-context read order
 
-## Reader contract
+Do not load all design knowledge by default.
 
-For current-state questions, fetch the three files above by exact path from the repository default branch. Do not infer current state from code search hits, PR bodies, commit history, cached connector summaries, or how many `trends/*.md` files happen to be discoverable.
+1. Read `README.md` and `index.json`.
+2. Route the task to the smallest useful lane set.
+3. Read only the relevant compact lane entries.
+4. Open at most 3 relevant `trends/*.md` files when evidence or deeper interpretation is needed.
 
-- `index.json` is authoritative for **which signals are currently active**. Count and enumerate every top-level entry when asked for the current radar.
-- `LATEST.md` is authoritative for the compact current interpretation and prioritization of those active signals.
-- `trends/*.md` contains supporting evidence and history; a trend file existing does not by itself mean the signal is active.
-- If exact-path/default-branch reads are unavailable, say that the current radar cannot be verified. Do not answer from a stale search result or earlier PR snapshot.
-- If `LATEST.md` and `index.json` disagree, treat `index.json` as authoritative for active membership and flag the inconsistency for maintenance.
+Default retrieval for an ordinary design task should aim for:
 
-## Research window
+- 1 relevant `current` signal
+- 1 relevant `evergreen` signal
+- optionally 1 relevant `revival`
 
-Prioritize work surfaced in the last 14 days and use roughly the previous 90 days as background for judging change. Start with Recent.design, Site of Sites, Brand New, Mobbin, Lapa Ninja, Design Spells, and Savee; follow through to original projects, studios, product pages, and first-party releases when needed.
+Use only `LATEST` when the user explicitly wants what is new. Use Evergreen more heavily when the goal is durable, restrained, or low-risk design. Use Revivals when historical reference, cultural memory, nostalgia, or deliberate stylistic character is relevant.
 
-Prefer real work, interfaces, pages, and screenshots. A headline, forecast article, individual opinion, or one high-profile project is not trend evidence by itself.
+## Index contract
 
-## Initialization baseline
+`index.json` is the compact routing index and is authoritative for which signals are active across all lanes.
 
-The first populated radar run is broader than a normal incremental run. Survey the current ~90-day landscape across both graphic and UI design and establish the few active signals with the highest decision value. A signal does not need to be newly invented to enter the initial baseline: current recurrence may justify `stable`, while evidence across distinct recent batches may justify `growing`. Recent 14-day work should still be used to confirm that a baseline signal remains live.
+Each entry contains only retrieval fields such as `id`, `lane`, `summary`, `status`, `fit`, `avoid`, and `path`.
 
-After the baseline exists, return to incremental research and modify the repository only for substantive changes. Do not repeatedly rebuild the baseline.
+- `lane: current` maps to `LATEST.md`
+- `lane: evergreen` maps to `EVERGREEN.md`
+- `lane: revival` maps to `REVIVALS.md`
 
-## Promotion rules
+A file in `trends/` is evidence/history; its existence alone does not make it active.
 
-- One project is evidence, not a trend.
-- `emerging`: normally at least 3 independent projects across at least 2 independent sources.
-- `growing`: the signal continues across distinct time batches.
-- `stable`: the mechanism remains current and decision-relevant, but the recent window does not show meaningful acceleration or decline.
-- `declining`: repeated current evidence shows the mechanism losing use or decision value; absence alone is insufficient.
-- Separate what was observed from what is inferred.
-- Record both `Fit` and `Avoid`.
-- Do not turn a shared feature of good examples into a generation rule.
-- Do not promote weak evidence into `LATEST.md`.
+## Current lane
+
+`LATEST.md` answers: **What is changing now?**
+
+- at most 8 signals
+- primarily `emerging`, `growing`, or meaningful `declining` signals
+- `stable` may remain temporarily when it is still current and decision-relevant
+- a stable signal should eventually either lose current relevance, remain archived, or be evaluated for Evergreen promotion
+
+One project is evidence, not a trend. `emerging` normally requires at least 3 independent projects across at least 2 sources. `growing` requires recurrence across distinct time batches.
+
+## Evergreen lane
+
+`EVERGREEN.md` answers: **What remains useful even when it is no longer fashionable?**
+
+Do not promote a pattern merely because it has existed for a long time. It should show:
+
+- **Longevity** — useful across a substantial time span
+- **Transferability** — works across multiple products, brands, media, or contexts
+- **Utility** — solves a stable design problem
+
+Prefer durable relationships and mechanisms over recognizable surface features. Long-lived popularity alone is insufficient.
+
+Target: at most 12 compact active Evergreen entries. The underlying evidence archive can be larger.
+
+## Revival lane
+
+`REVIVALS.md` answers: **Which historical design languages are becoming newly relevant, and what changed in their return?**
+
+A revival requires:
+
+- a verifiable historical anchor
+- repeated current recurrence across independent projects
+
+Record both `what returned` and `what changed`. Do not equate concept frequency with broad production adoption.
+
+Target: at most 6 compact active Revival entries.
+
+## Frontier vs adoption
+
+Original concepts, experiments, student work, speculative design, Behance/Dribbble author projects, and experimental websites can be strong **frontier** evidence. Production products, commercial identities, Mobbin, Refero, and live product surfaces are stronger evidence of **adoption**.
+
+Do not downgrade a concept simply because it is not shipped. Do not claim broad production adoption from concept work alone.
+
+Trend and inspiration sites are discovery sources. Follow candidates to the original design object whenever possible: original project, author, studio case study, product, demo, prototype, or complete concept presentation. Analyze the original object rather than the aggregator's label, summary, crop, or montage.
+
+## Research cadence
+
+Weekly maintenance prioritizes work surfaced in the last 14 days and uses roughly the previous 90 days as context for current change.
+
+Evergreen and Revival do not need a full rebuild every week. Re-evaluate them when new evidence suggests promotion, demotion, or revival, and perform a broader review roughly monthly.
 
 ## Context budgets
 
-- `LATEST.md`: at most 8 signals; target <= 900 tokens; roughly 60–100 tokens per signal.
-- `index.json`: only `id`, `summary`, `status`, `fit`, `avoid`, `path`; target <= 1200 tokens total.
-- `trends/<slug>.md`: detailed evidence; target <= 800 tokens each.
-- Do not duplicate the same prose across files.
+- `LATEST.md`: <= 8 signals; target <= 900 tokens
+- `EVERGREEN.md`: <= 12 active entries; target <= 1200 tokens
+- `REVIVALS.md`: <= 6 active entries; target <= 700 tokens
+- `index.json`: compact routing metadata only; target <= 2000 tokens
+- `trends/<slug>.md`: detailed evidence; target <= 800 tokens each
 
-`LATEST.md` is working memory. Remove signals when they stop appearing, become ordinary practice, or lose decision value; historical trend files may remain.
+The database may grow indefinitely; default model context should not.
 
-## Updates
+## Updates and merge policy
 
-Only change the repository for a valid new signal, meaningful evidence change, status change, corrected definition, or removal from working memory. Otherwise make no repository change and create no PR.
+Only update the repository for substantive evidence, status, lane, definition, promotion/demotion, or active-set changes.
 
-For a substantive update, use `radar/YYYY-MM-DD`, change only relevant files, open a PR to `main`, and never auto-merge it. The PR should state Added, Changed, Removed, key evidence, main uncertainty, and whether the context budgets still pass.
+Use `radar/YYYY-MM-DD...` branches and PRs. A PR may auto-merge with squash only when changes are limited to Design Radar content, context budgets pass, evidence requirements pass, sources are accessible, and there is no material unresolved contradiction or risky repository/configuration change. Otherwise leave it for human review.
