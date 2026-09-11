@@ -1,4 +1,4 @@
-# Latest — 2026-09-10
+# Latest — 2026-09-11
 
 Current-lane working memory. These are the few signals with enough recent evidence and decision value to affect design choices now. `stable` here means currently established and still relevant; it does not automatically mean Evergreen. Stable signals should later be evaluated for promotion, archival, or removal from the current lane.
 
@@ -11,9 +11,6 @@ Current-lane working memory. These are the few signals with enough recent eviden
 ## Controlled irregularity interrupts polished systems — `emerging`
 **Observation:** Manta, Runblock, Phillips Print and Instagram introduce bounded hand gesture, distortion, interchangeable marks, physical testing or varied expression inside otherwise controlled systems. **Inference:** deliberate non-uniformity is becoming a meaningful counterweight to uniform polish. **Fit:** creative, food, sport and community brands. **Avoid:** cosmetic distress, weak process provenance or UI where irregularity obscures state. → `trends/controlled-irregularity.md`
 
-## Editorial scaffolding carries grouping — `stable`
-**Observation:** System 0, ANDMADE and Studio Loop continue to use type scale, spacing, grids, labels, indices and sequence as primary structure, with surfaced containers playing a smaller role. **Inference:** expressive sites still benefit from spatial/typographic grouping without requiring every unit to become a card. **Fit:** brand, editorial and portfolio sites. **Avoid:** dense transactional/data UI. → `trends/editorial-scaffolding-over-card-chrome.md`
-
 ## Density rises while interface chrome recedes — `emerging`
 **Observation:** t0ggles, August, Kuda and UX Components increase visible work or direct routing while reducing shadow, container weight and decorative chrome; surfaces, type and selective state color carry hierarchy. **Inference:** repeat-use tools are testing higher density and lower chrome together. **Fit:** professional and operational tools. **Avoid:** novice/touch-first flows or ambiguous state boundaries. → `trends/density-up-chrome-down.md`
 
@@ -25,3 +22,6 @@ Current-lane working memory. These are the few signals with enough recent eviden
 
 ## Photography displaces rendered and vector imagery — `emerging`
 **Observation:** in a 2,211-site curated dataset, sites added since July 2025 shifted decisively toward photographic imagery — Image share 53.4% → 84.1% among illustration-tagged sites while 3D fell to 12.6% and Vector to 20.6%; hero layouts stayed flat. **Inference:** photoreal imagery is retaking the default vocabulary; effect survives tag-coverage control, but one curated source, so taste drift is possible. **Fit:** imagery direction for product, AI and dev-tool sites. **Avoid:** treating photography as mandatory; category mix carries part of the move. → `trends/photography-over-rendered-imagery.md`
+
+## Chroma returns as minimal recedes — `emerging`
+**Observation:** in the same dataset, style-tagged sites added since July 2025 moved from muted to saturated palettes — Colorful share 29.2% → 50.6% while Minimal fell 57.0% → 27.7%, rising on both dark and light grounds with Dark share itself flat. **Inference:** accent-led chroma is displacing the minimal default across themes; one curated source, taste drift possible. **Fit:** palette direction for marketing and launch sites; accent systems reading on both themes. **Avoid:** reading this as dark-mode rising; the move is accent-led, not flood-fill. → `trends/chroma-returns-as-minimal-recedes.md`

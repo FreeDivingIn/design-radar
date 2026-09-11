@@ -32,4 +32,4 @@ Reading this as "dark mode rising" (an artifact of tag coverage, not a theme shi
 
 ## Uncertainty
 
-Single source. Held out of `index.json` and `LATEST.md`: the working-memory budget (≤8 signals) admits only one signal from this batch, and this one ranks below photography on evidence strength. Promote once an independent source corroborates.
+Single source; curation-taste drift cannot be excluded. Promoted to the current lane on 2026-09-11: the temporal-lane split moved `editorial-scaffolding-over-card-chrome` to Evergreen evaluation, freeing working-memory capacity. Still needs at least one independent source with fresh instances before it can advance toward `growing`.
