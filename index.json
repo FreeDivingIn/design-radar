@@ -30,7 +30,7 @@
     "id": "editorial-scaffolding-over-card-chrome",
     "lane": "evergreen",
     "summary": "Expressive sites continue to carry grouping through typography, spacing, grids, labels and sequence instead of persistent surfaced containers.",
-    "status": "stable",
+    "status": "established",
     "fit": "Brand, editorial, launch and portfolio experiences with moderate information density.",
     "avoid": "Dense transactional or data interfaces where explicit object and state boundaries matter.",
     "path": "trends/editorial-scaffolding-over-card-chrome.md"
@@ -84,7 +84,7 @@
     "id": "split-hero-message-and-proof",
     "lane": "evergreen",
     "summary": "Two-column hero pairing a message block with visual evidence in one viewport; prevalent and batch-stable across all site categories.",
-    "status": "stable",
+    "status": "established",
     "fit": "Product, SaaS, finance, dev-tool and commerce heroes that must both say and show.",
     "avoid": "Pure brand/atmosphere pieces; splits without a real proof asset.",
     "path": "trends/split-hero-message-and-proof.md"
@@ -93,7 +93,7 @@
     "id": "top-bar-navigation",
     "lane": "evergreen",
     "summary": "Identity, wayfinding and primary action held in one conventional top row; near-universal and exactly stable across batches.",
-    "status": "stable",
+    "status": "established",
     "fit": "Virtually all content and product sites needing persistent orientation.",
     "avoid": "Reading as 'never innovate nav'; the value is orientation, not the bar.",
     "path": "trends/top-bar-navigation.md"
@@ -102,7 +102,7 @@
     "id": "context-graded-cta-button",
     "lane": "evergreen",
     "summary": "Primary-action button weight graded to visitor task orientation; near-universal in task contexts, relaxed in expressive ones.",
-    "status": "stable",
+    "status": "established",
     "fit": "Signup, purchase, trial and download flows where visitors arrive ready to act.",
     "avoid": "Max-strength CTA in editorial contexts; hidden primary action in task flows.",
     "path": "trends/context-graded-cta-button.md"
