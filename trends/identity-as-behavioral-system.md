@@ -11,6 +11,7 @@ Recent identity systems repeatedly define how visual elements *behave* across ch
 - **Public Records** uses modular templates, type, illustration and motion so social output can vary with programming while retaining a shared visual grammar.
 - **Phion Symphony Orchestra** makes the music itself the input to the system: GT Planar changes slant and spacing according to each performance, while a simple rule keeps the changing campaigns recognisable.
 - **Brunch Electronik** foregrounds a motion and graphic system rather than treating animation as a launch asset.
+- **DeafCity Hub** makes co-designed British Sign Language gestures a live system input: motion tracking maps real hand position and movement into a transforming identity, extending the pattern beyond music/content-driven variation into embodied communication.
 
 ## Inference
 
@@ -30,6 +31,7 @@ Low-frequency identities, teams unable to govern motion/variation, or contexts w
 - [Ronnie Scott’s — It’s Nice That](https://www.itsnicethat.com/articles/dan-cottrell-studio-ronnie-scotts-branding-graphic-design-project-080726) — July identity explicitly framed as a performance rather than a fixed system.
 - [Public Records — It’s Nice That](https://www.itsnicethat.com/articles/los-cabbalos-public-records-graphic-design-illustration-project-270726) — modular social system combines layout, type, illustration and motion.
 - [Phion Symphony Orchestra — Thonik](https://thonik.nl/work/phion) — first-party case study states that music is the foundation and the system expands campaign by campaign while retaining recognition.
+- [DeafCity Hub — TEMPLO](https://templo.co.uk/work/deafcity-hub) — first-party case study documents co-creation, creative coding and motion-responsive software that transforms the identity from real hand movement.
 - [Brand New: Motion](https://www.underconsideration.com/brandnew/archives/tag/motion) — separate June, August and September batches continue to surface identity systems where motion is structural, including Brunch Electronik in September.
 
 ## Uncertainty
